@@ -83,7 +83,7 @@ use POSIX;
 use File::Pid;
 use Authen::Htpasswd;
 
-my $ListenAddress = '0.0.0.0'; # Listening IP address
+my $ListenAddress = '127.0.0.1'; # Listening IP address
 my $ListenPort = 8890; # Listening TCP port
 my $totalChildren = 10; # Number of listening children to keep alive
 my $childLifetime = 10; # Let each child serve up to this many requests
