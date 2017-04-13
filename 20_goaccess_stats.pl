@@ -43,13 +43,6 @@ use iMSCP::Execute;
 my $eventManager = iMSCP::EventManager->getInstance();
 
 $eventManager->register('afterFrontEndInstall', sub {
-        # Example, how to execute commands in lister (took from some dovecot listener)
-        #execute( "dovecot --version", \ my $stdout, \ my $stderr );
-        #if (version->parse( "$stdout" ) < version->parse( '2.1.0' )) {
-        #    warning( "The 60_dovecot_service_login.pl Listener file requires Dovecot version 2.1.x or newer. Your version is: $stdout" );
-        #    return 0;
-        #}
-
         # Install needed packages and prerequisites for spanminus
         #CGI                  apt-get install libcgi-pm-perl
         #HTTP::Daemon         apt-get install libhttp-daemon-perl
