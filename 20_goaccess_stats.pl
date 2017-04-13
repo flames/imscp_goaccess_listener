@@ -1,4 +1,4 @@
-# i-MSCP Listener::Named::Slave::Provisioning listener file
+# i-MSCP Listener::Goaccess::Stats listener file
 # Copyright (C) 2015 Arthur Mayer <mayer.arthur@gmail.com>
 # Listener file is based on features and functions of the i-MSCP Listener API
 # Perl script is based on information from numerous comments at stackoverflow, perl and cpan
